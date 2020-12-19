@@ -1,8 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --main-color: #0f3057;
+    --second-color: #00587a;
+    --turquoise-color: #008891;
+    --pearl-color: #e7e7de;
 }
 
-
-p {
-    color: var(--main-color);
-}

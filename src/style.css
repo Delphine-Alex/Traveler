@@ -526,6 +526,56 @@ button:focus {
     }
 }
 
+
+/* ACTIVITIES */
+
+.intro-content {
+    width: 95%;
+    margin: 3%;
+}
+
+.title-content{
+    margin-top:0;
+    width: 95%;
+}
+
+.title-content h2 {
+    margin-bottom: 3%;
+    font-size: 50px;
+}
+
+.vide {
+    height: 1em;
+    background-color: var(--main-color);
+    width: 100%;
+}
+
+.global-container-content {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    height: 100%;
+}
+
+.container-content {
+    width: 30%;
+    padding: 1%;
+    margin: 2%;
+    background-color: var(--main-color);
+}
+
+.container-content img {
+    max-width: 100%;
+}
+
+.container-content p, .container-content h3 {
+    margin: 3%;
+}
+
+.main-font-color{
+    background-color:  var(--second-color);
+}
+
 /*MOBILE */
 
 @media screen and (max-width:1200px) {
@@ -541,15 +591,15 @@ button:focus {
 @media screen and (max-width:768px){
 
     .banner-content {
-        height: var(--heightBannerMobile);
+        height: 15em;
     }
     
     .banner-content h1 {
-        font-size: var(--bannerH1SizeMobile);
+        font-size: 3em;
     }
 
     .intro-content h2 {
-        font-size: var(--bannerH2SizeMobile);
+        font-size: 1.5em;
     }
 
     .global-container-content{

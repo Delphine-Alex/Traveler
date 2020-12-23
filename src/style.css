@@ -22,7 +22,6 @@ body {
 p {
     font-size: 16px;
     line-height: 1.5em;
-    text-align: justify;
 }
 
 
@@ -428,10 +427,6 @@ input:focus {
     margin: auto;
 }
 
-.container-all h2 {
-    text-align: center;
-}
-
 .input-container {
     display: flex;
     flex-direction: row;
@@ -684,6 +679,7 @@ button:focus {
 
 .main-font-color {
     background-color:  var(--second-color);
+    margin-bottom: 70px;
 }
 
 /*MOBILE */
@@ -693,6 +689,7 @@ button:focus {
     .burger {
         display: flex;
     }
+
     nav {
         display: none;
     }
@@ -771,5 +768,11 @@ button:focus {
         width: 70%;
         height: 70%;
         margin-left: 3%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .burger h1 {
+        font-size: 1.5em;
     }
 }

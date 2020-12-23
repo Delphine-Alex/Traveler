@@ -576,6 +576,121 @@ button:focus {
     background-color:  var(--second-color);
 }
 
+/* BOOKING */
+
+input{
+    border-radius: 5px;
+    border: solid 2px var(--blue-color);
+    padding: 0.3em;
+    background-color: var(--second-color);
+    color: white;
+}
+
+::placeholder{
+    color: white;
+}
+
+input:focus{
+    outline: none;
+}
+
+.container-all{
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+    .container-all h2{
+        text-align: center;
+    }
+    .input-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: center;
+        margin-right: 3%;
+        margin-left: 3%;
+        margin: auto;
+        width: 95%;
+    }
+        .case{
+            width: 30%;
+            height: 100%;
+        }
+        .date{
+            width: 100%;
+            height: 31px; 
+            margin-left: 5%;
+            margin-bottom: 10%;
+        }
+        .civility{
+            width: 105%;
+            height: 37px; 
+            margin-left: 5%;
+            margin-bottom: 10%;
+            border-radius: 5px;
+            border: solid 2px var(--backgroundLow);
+            padding: 0.3em;
+            background-color: var(--backgroundHight);
+            color: white;
+            outline: none;
+        }
+        .comment{
+            max-width: 73%;
+            height: 90px;
+            margin-left: 15%;
+        }
+            textarea{
+                width: 95%;
+                border: solid 2px var(--turquoise-color);
+                padding: 0.3em;
+                background-color: var(--main-color);
+                color: var(--pearl-color);
+                outline: none;
+            }
+
+            label{
+                text-align: center;
+            }
+
+    .checkbox-container{
+        width: 38%;
+        margin: auto;
+        
+    }
+    .champs, select{
+        width: 100%;
+        height: 25px;
+        margin: 5%;
+    }
+    .book-container{
+        width: 30%;
+        height: 1.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 3%;
+        margin-bottom: 5%;
+        background-color: var(--turquoise-color);
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size:20pt;
+        border: solid 2px var(--turquoise-color);
+        padding: 0.3em;
+        background-color: var(--main-color);
+        color: white;
+        outline: none;
+    }
+
+    .button{
+        color: var(--pearl-color);
+        border: none;
+        width: 30%;
+    }
+
+
 /*MOBILE */
 
 @media screen and (max-width:1200px) {

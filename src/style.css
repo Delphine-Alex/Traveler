@@ -1,9 +1,8 @@
 :root {
-    --main-color: #0c1e3e;
-    --second-color: #122c5a;
-    --turquoise-color: #8e52f5;
-    --blue-color: #38fbdb;
-    --pink-color: #fc0ff5;
+    --main-color: #1a1a2e;
+    --second-color: #16213e;
+    --blue-color: #0f3460;
+    --red-color: #e94560;
 
     --pearl-color: #e7e7de;
     --black-color: black;
@@ -29,7 +28,7 @@ p {
 /* NAV BAR */ 
 
 .back-move {
-    background-color: var(--main-color);
+    background-color: var(--second-color);
     position: fixed;
     width: 100%;
     top: 0;
@@ -41,7 +40,7 @@ p {
 }
 
 nav {
-    background-color: var(--main-color);
+    background-color: var(--second-color);
     height: 3.5em;   
     display: flex; 
     justify-content: space-between;
@@ -186,7 +185,7 @@ main{
 
 .robot-img-cadre {
     padding: 0.5em;
-    background-color: var(--turquoise-color);
+    background-color: var(--blue-color);
     grid-column: 1;
     margin-top: -8em; 
     width: 90%;
@@ -245,7 +244,7 @@ div.home-image-slider figure {
 }
 
 .certification {
-    background-color:var(--second-color);    
+    background-color:var(--blue-color);    
     margin-top: 1em;
     margin-bottom: 1em;
     display: flex;
@@ -272,7 +271,7 @@ div.home-image-slider figure {
 }
 
 .rond-certif{
-    background-color: var(--turquoise-color);
+    background-color: var(--pearl-color);
     border-radius: 100px;
     height: 6em;
     width: 9em;
@@ -287,7 +286,7 @@ div.home-image-slider figure {
     margin-top: 1em;
     height: 3em;
     width: 8em;
-    background-color: var(--main-color);
+    background-color: var(--second-color);
     color: var(--pearl-color);
     border: none;
     border-radius: 20px;
@@ -295,16 +294,12 @@ div.home-image-slider figure {
 }
 
 .certification button:hover{
-    background-color: var(--blue-color);
+    background-color: var(--red-color);
 }
 
-.certification button:active{
-    background-color: green;
-}
 
 .rond-certif:hover {
     transform: scale(1.1);
-    background-color: var(--pink-color);
 }
 
 .button-text-certif{
@@ -355,13 +350,13 @@ div.home-image-slider figure {
     height : 0;
     width : 0;
     border-right : 15px solid transparent;
-    border-bottom : 10px solid var(--turquoise-color);
+    border-bottom : 10px solid var(--second-color);
     border-left : 14px solid transparent;
     align-self: center;
 }
 
 .text-inside-pp {
-    background-color: var(--turquoise-color);
+    background-color: var(--second-color);
     padding: 1em;
     border-radius: 15px;
     width: 10em;
@@ -427,7 +422,7 @@ div.home-image-slider figure {
 #bar3 {
     width: 35px;
     height: 3px;
-    background-color: var(--turquoise-color);
+    background-color: var(--blue-color);
     margin: 6px 0 ;
     transition: 0.4s;
     border-radius: 30px;
@@ -561,7 +556,7 @@ button:focus {
     width: 30%;
     padding: 1%;
     margin: 2%;
-    background-color: var(--main-color);
+    background-color: var(--blue-color);
 }
 
 .container-content img {
@@ -572,135 +567,20 @@ button:focus {
     margin: 3%;
 }
 
-.main-font-color{
+.main-font-color {
     background-color:  var(--second-color);
 }
-
-/* BOOKING */
-
-input{
-    border-radius: 5px;
-    border: solid 2px var(--blue-color);
-    padding: 0.3em;
-    background-color: var(--second-color);
-    color: white;
-}
-
-::placeholder{
-    color: white;
-}
-
-input:focus{
-    outline: none;
-}
-
-.container-all{
-    flex-direction: column;
-    display: flex;
-    width: 100%;
-    margin: auto;
-}
-    .container-all h2{
-        text-align: center;
-    }
-    .input-container{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        text-align: center;
-        margin-right: 3%;
-        margin-left: 3%;
-        margin: auto;
-        width: 95%;
-    }
-        .case{
-            width: 30%;
-            height: 100%;
-        }
-        .date{
-            width: 100%;
-            height: 31px; 
-            margin-left: 5%;
-            margin-bottom: 10%;
-        }
-        .civility{
-            width: 105%;
-            height: 37px; 
-            margin-left: 5%;
-            margin-bottom: 10%;
-            border-radius: 5px;
-            border: solid 2px var(--backgroundLow);
-            padding: 0.3em;
-            background-color: var(--backgroundHight);
-            color: white;
-            outline: none;
-        }
-        .comment{
-            max-width: 73%;
-            height: 90px;
-            margin-left: 15%;
-        }
-            textarea{
-                width: 95%;
-                border: solid 2px var(--turquoise-color);
-                padding: 0.3em;
-                background-color: var(--main-color);
-                color: var(--pearl-color);
-                outline: none;
-            }
-
-            label{
-                text-align: center;
-            }
-
-    .checkbox-container{
-        width: 38%;
-        margin: auto;
-        
-    }
-    .champs, select{
-        width: 100%;
-        height: 25px;
-        margin: 5%;
-    }
-    .book-container{
-        width: 30%;
-        height: 1.5em;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        margin-top: 3%;
-        margin-bottom: 5%;
-        background-color: var(--turquoise-color);
-        color: white;
-        border-radius: 10px;
-        cursor: pointer;
-        font-size:20pt;
-        border: solid 2px var(--turquoise-color);
-        padding: 0.3em;
-        background-color: var(--main-color);
-        color: white;
-        outline: none;
-    }
-
-    .button{
-        color: var(--pearl-color);
-        border: none;
-        width: 30%;
-    }
-
 
 /*MOBILE */
 
 @media screen and (max-width:1200px) {
+
     .burger {
         display: flex;
     }
     nav {
         display: none;
     }
-
 }
 
 @media screen and (max-width:768px){
@@ -735,4 +615,127 @@ input:focus{
         width: 30px;
         height: 30px;
     }
+}
+
+/* BOOKING */
+
+input {
+    border-radius: 5px;
+    border: solid 2px var(--blue-color);
+    padding: 0.3em;
+    background-color: var(--second-color);
+    color: var(--pearl-color);
+}
+
+::placeholder {
+    color: var(--pearl-color);
+}
+
+input:focus {
+    outline: none;
+}
+
+.container-all {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.container-all h2 {
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin: auto;
+    width: 95%;
+}
+
+.case {
+    width: 30%;
+   height: 100%;
+}
+
+.date {
+    width: 100%;
+    height: 31px; 
+    margin-left: 5%;
+    margin-bottom: 10%;
+
+}
+
+.civility {
+    width: 105%;
+    height: 37px; 
+    margin-left: 5%;
+    margin-bottom: 10%;
+    border-radius: 5px;
+    border: solid 2px var(--blue-color);
+    padding: 0.3em;
+    background-color: var(--second-color);
+    color: white;
+    outline: none;
+}
+
+.comment {
+    max-width: 73%;
+    height: 90px;
+    margin-left: 15%;
+}
+
+textarea {
+    width: 95%;
+    border: solid 2px var(--blue-color);
+    padding: 0.3em;
+    background-color: var(--second-color);
+    color: var(--pearl-color);
+    outline: none;
+}
+
+label {
+    text-align: center;
+}
+
+.checkbox-container{
+    width: 38%;
+    margin: auto; 
+}
+
+.champs, select {
+    width: 100%;
+    height: 25px;
+    margin: 5%;
+}
+
+.book-container{
+    width: 30%;
+    height: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    background-color: var(--blue-color);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size:20pt;
+    border: solid 2px var(--blue-color);
+    padding: 0.3em;
+    background-color: var(--second-color);
+    color: white;
+    outline: none;
+}
+
+.button{
+    color: var(--pearl-color);
+    border: none;
+    width: 30%;
 }

@@ -8,7 +8,7 @@ navItems.forEach(x => {
     if (x.innerHTML === 'HOME' && pathName === '/index.html') {
         x.style.backgroundColor = '#DEE1E4'
         x.style.color = '#333a3a'
-    } else if (x.innerHTML === 'HISTORY' && pathName === '/history.html') {
+    } else if (x.innerHTML === 'HOTELS' && pathName === '/hotels.html') {
         x.style.backgroundColor = '#DEE1E4'
         x.style.color = '#333a3a'
     } else if (x.innerHTML === 'ACTIVITIES' && pathName === '/activities.html') {

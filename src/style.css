@@ -36,7 +36,6 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 
 nav {
@@ -49,8 +48,6 @@ nav {
     z-index: 10000;
     width: 80%;
     padding-left: 00.5em;
-    
-    
 }
 
 li {
@@ -77,7 +74,6 @@ a {
     padding: 1em 0.8em;
     transition: all 0.2s;
     transition-delay: 0.2s;
-    
 }
 
 .nav-container .nav-items::before {
@@ -103,7 +99,7 @@ a {
 }
 
 
-/* HOME ---------------------------------------------------------------------------------------------------------------------- */
+/* HOME */
 
 .banner-home { 
     background-image: url("./images/background-Home.png");
@@ -120,10 +116,9 @@ a {
     font-size: 3em;
 }
 
-main{
+main {
     display:flex;
     flex-direction: column;
-    /* align-items: center; */
     margin: -70px 10% 0 10% ;
     background-color: var(--main-color);
     z-index: 800;    
@@ -445,7 +440,6 @@ input:focus {
     height: 31px; 
     margin-left: 5%;
     margin-bottom: 10%;
-
 }
 
 .civility {
@@ -497,14 +491,14 @@ label {
     margin-top: 3%;
     margin-bottom: 5%;
     background-color: var(--blue-color);
-    color: white;
+    color: var(--pearl-color);
     border-radius: 10px;
     cursor: pointer;
     font-size:20pt;
     border: solid 2px var(--blue-color);
     padding: 0.3em;
     background-color: var(--second-color);
-    color: white;
+    color: var(--pearl-color);
     outline: none;
 }
 
@@ -515,7 +509,7 @@ label {
 }
 
 
-/*  BURGER CSS ---------------------------------------------------------------------------------------------------------------------- */
+/* BURGER CSS */
 
 .wrapper {       
     cursor: pointer;    
@@ -525,7 +519,6 @@ label {
    position: absolute;
    left: 0.4em;
 }
-
 
 #bar1,
 #bar2,
@@ -631,7 +624,7 @@ button:focus {
     }
 }
 
-/* ACTIVITIES */
+/* ACTIVITIES & HOTELS */
 
 .intro-content {
     width: 95%;
@@ -657,7 +650,6 @@ button:focus {
 .global-container-content {
     display: flex;
     justify-content: space-around;
-    /* width: 95%; */
     height: 100%;
 }
 
